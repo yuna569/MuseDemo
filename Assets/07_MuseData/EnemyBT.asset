@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad8f2220607dac4db5082ff333fafb8, type: 3}
+  m_Name: EnemyBT
+  m_EditorClassIdentifier: 
+  m_VersionTimestamp: 638575159726531598
+  m_AssetJson: '{"m_Nodes":[{"__TYPE":"Unity.Muse.Behavior.StartNodeModel, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    0","m_RepeatField":{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    0","FieldName":"Repeat","Type":{"Type":"System.Boolean, mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    0","m_Value":false,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}},"NodeTypeID":{"m_Value0Signed":-5888099585505948145,"m_Value1Signed":2326471244322729913},"m_FieldValues":[{"$ref":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    0"}],"Position":{"__TYPE":"UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2 0","x":0.0,"y":0.0},"ID":{"m_Value0Signed":-7360749569389941208,"m_Value1Signed":-1396620113151247875},"Parents":[],"PortModels":[{"$id":"1","m_NodeModel":{"$ref":"Graph.NodeModel
+    0"},"m_Connections":{"$id":"2","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.StartNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"}],"m_Variables":[],"__TYPE":"Unity.Muse.Behavior.BehaviorAuthoringGraph,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"}'
+  m_DebugInfo: {fileID: 7947259188056865790}
+  AssetID:
+    m_Value0: 6930814620249415488
+    m_Value1: 15883107059961761253
+  Story:
+    Story: 
+    Variables: []
+  m_Commands: []
+  m_NodeModelsInfo:
+  - Name: On Start
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 3335272451348827663
+      m_Value1: 11549843281177505721
+    Variables:
+    - Name: Repeat
+      Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+    NamedChildren: []
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &4868791647665920982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db920e62f70f420bb33c771449926fa4, type: 3}
+  m_Name: EnemyBT
+  m_EditorClassIdentifier: 
+  Graphs:
+  - rid: 7750197451907137539
+  RootGraph:
+    rid: 7750197451907137539
+  m_DebugInfo: {fileID: 7947259188056865790}
+  m_GraphJson: '{"Graphs":[{"$id":"1","AuthoringAssetID":{"m_Value0Signed":-2292557416605360320,"m_Value1Signed":6659735023106985445},"Root":{"__TYPE":"Unity.Muse.Behavior.Start,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    0","Repeat":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    0","m_Value":false,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"ID":{"m_Value0Signed":-7360749569389941208,"m_Value1Signed":-1396620113151247875},"Graph":{"$ref":"1"}},"m_Blackboard":{"$id":"2","m_Variables":[]},"Blackboard":{"$ref":"2"}}],"RootGraph":{"$ref":"1"},"Blackboard":{"$ref":"2"},"IsRunning":false,"__TYPE":"Unity.Muse.Behavior.BehaviorGraph,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"}'
+  references:
+    version: 2
+    RefIds:
+    - rid: 7750197451907137539
+      type: {class: BehaviorGraphModule, ns: Unity.Muse.Behavior, asm: Unity.Muse.Behavior}
+      data:
+        Asset: {fileID: 11400000}
+        AuthoringAssetID:
+          m_Value0: 6930814620249415488
+          m_Value1: 15883107059961761253
+        m_DebugInfo: {fileID: 0}
+        Root:
+          rid: 7750197451907137540
+        m_Blackboard:
+          rid: 7750197451907137541
+        m_VersionTimestamp: 638575159726531598
+    - rid: 7750197451907137540
+      type: {class: Start, ns: Unity.Muse.Behavior, asm: Unity.Muse.Behavior}
+      data:
+        ID:
+          m_Value0: 1862622467464834600
+          m_Value1: 7826751923703527933
+        Repeat:
+          GUID:
+            m_Value0: 0
+            m_Value1: 0
+          Name: 
+          m_Value: 0
+    - rid: 7750197451907137541
+      type: {class: Blackboard, ns: Unity.Muse.Behavior, asm: Unity.Muse.Behavior}
+      data: 
+--- !u!114 &7947259188056865790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b27bb6d9a2c8d540a10dff10acc543e, type: 3}
+  m_Name: EnemyBT Debug Info
+  m_EditorClassIdentifier: 
+  m_CodeBreakPointsList: []
